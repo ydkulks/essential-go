@@ -5,14 +5,16 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	// "io/ioutil"
+	"os"
 )
 
 // we will create a function called LoadConfig that will load up our JSON
 // configuration file
 func LoadConfig(path string) (map[string]interface{}, error) {
 	var m map[string]interface{}
-	data, err := ioutil.ReadFile(path)
+	// data, err := ioutil.ReadFile(path)
+	data, err := os.ReadFile(path)
 	if err != nil {
 		return m, err
 	}
@@ -22,7 +24,7 @@ func LoadConfig(path string) (map[string]interface{}, error) {
 }
 
 func main() {
-	config, err := LoadConfig("config.json")
+	config, err := LoadConfig("./config.json")
 	if err != nil {
 		panic(err)
 	}

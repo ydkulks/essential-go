@@ -10,6 +10,7 @@
   tab for your computer's operating system
 
 For more indepth installation process:
+
 - For [Windows](https://www.youtube.com/watch?v=kxD8p-aPYzM)
 - For [Linux](https://www.youtube.com/watch?v=nQPdj4Z25Js)
 - For [Mac](https://www.youtube.com/watch?v=dgIh-VYcWYw&pp=ygUZaG93IHRvIGluc3RhbGwgZ29sYW5nIG1hYw%3D%3D)
